@@ -169,7 +169,7 @@ class ProductController extends Controller
         }
     }
 
-    public function hapus(Request $request, $id)
+    public function delete(Request $request, $id)
     {
         try {
             $product = Product::find($id);
